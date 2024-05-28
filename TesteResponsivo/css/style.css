@@ -1,0 +1,40 @@
+/** Mobile**/
+
+body{
+    background-color: tomato;
+}
+
+h1{
+    font-size: medium;
+    color: azure;
+}
+
+/*Tablet*/
+
+@media(min-width:768px){
+    body{
+        background-color: blue;}
+    h1{
+        color:chartreuse}
+}
+
+/*Desktop*/
+
+@media(min-width:960px){
+    body{
+        background-color:black}
+    h1{
+        color:rgb(255, 0, 212)}
+}
+
+/*WideScreen*/
+
+@media(min-width:1200px){
+    body{
+        background-color:rgb(52, 136, 166)}
+    h1{
+        color:rgb(245, 241, 13)}
+}
+
+
+
